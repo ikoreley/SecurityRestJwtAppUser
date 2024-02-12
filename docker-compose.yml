@@ -1,0 +1,13 @@
+services:
+  db_jwt:
+    restart: always
+    container_name: db_jwt
+    image: postgres:15.5-alpine3.18
+    environment:
+      POSTGRES_DB: docker_security_jwt
+      POSTGRES_PASSWORD: 785785
+      POSTGRES_USER: postgres
+    ports:
+      - "15432:5432"
+    volumes:
+      - ./infrastructure/db/postgres-data:/var/lib/postgresql/data
