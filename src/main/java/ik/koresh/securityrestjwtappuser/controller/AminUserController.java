@@ -2,7 +2,6 @@ package ik.koresh.securityrestjwtappuser.controller;
 
 import ik.koresh.securityrestjwtappuser.dto.ReqResDTO;
 import ik.koresh.securityrestjwtappuser.entity.Product;
-import ik.koresh.securityrestjwtappuser.repository.EventRepository;
 import ik.koresh.securityrestjwtappuser.repository.ProductRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

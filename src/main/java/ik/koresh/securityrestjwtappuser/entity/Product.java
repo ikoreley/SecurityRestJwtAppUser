@@ -1,10 +1,7 @@
 package ik.koresh.securityrestjwtappuser.entity;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import lombok.Data;
-
-import java.time.LocalDateTime;
 
 @Entity
 @Data

@@ -1,7 +1,6 @@
 package ik.koresh.securityrestjwtappuser.service;
 
 import ik.koresh.securityrestjwtappuser.dto.ReqResDTO;
-import ik.koresh.securityrestjwtappuser.entity.Role;
 import ik.koresh.securityrestjwtappuser.entity.UserApp;
 import ik.koresh.securityrestjwtappuser.repository.RoleRepository;
 import ik.koresh.securityrestjwtappuser.repository.UserAppRepository;
@@ -12,10 +11,8 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class AuthService {

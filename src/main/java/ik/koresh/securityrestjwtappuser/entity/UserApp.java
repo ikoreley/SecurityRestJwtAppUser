@@ -2,9 +2,6 @@ package ik.koresh.securityrestjwtappuser.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.hibernate.annotations.BatchSize;
-import org.hibernate.annotations.Fetch;
-import org.hibernate.mapping.FetchProfile;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
